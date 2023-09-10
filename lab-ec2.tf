@@ -16,7 +16,6 @@ terraform {
 
 provider "aws" {
   region = "us-east-1"  # Change to your desired AWS region
-  profile = "ctf"
 }
 
 resource "aws_security_group" "allow_all" {
