@@ -1,7 +1,9 @@
 # Seaside-terraform-lab
+```bash
+terraform init
 
-terraform init 
 terraform plan
+
 terraform apply --auto-approve
 
 ### EC2 Instance Initialization Script
