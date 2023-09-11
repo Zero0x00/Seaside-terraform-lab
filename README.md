@@ -6,7 +6,7 @@ terraform apply --auto-approve
 
 User Data :
 
-#!/bin/bash\n
+#!/bin/bash
 sudo yum install -y git
 git clone https://github.com/Zero0x00/seasides-cloud-ec2-lab.git
 cd seasides-cloud-ec2-lab/
